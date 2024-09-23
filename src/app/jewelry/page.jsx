@@ -1,6 +1,6 @@
 
 
-import JewelryComp from '@/components/jewelryComp/jewelryComp'
+
 import { traceGlobals } from 'next/dist/trace/shared'
 import { gasoekOne } from '../fonts/fonts'
 
