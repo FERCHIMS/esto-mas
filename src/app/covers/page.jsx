@@ -1,26 +1,20 @@
-import JewelProds from "@/components/jewelrysection/JewelProds"
-
+import CoverProds from "@/components/coversection/CoverProds"
 import TitlesPages from "@/components/titles/TitlesPages"
 
-
-
-const Jewelry = () => {
+const Covers = () => {
   return (
-
     <div className='flex w-full h-full flex-col overflow-hidden '>
       <div>
         <TitlesPages
-        textito="After making stops in London, Stockholm and Milan"
-        textito2= "JEWELRY"
+          textito="esto esto esssss"
+          textito2="COVERS"
         />
       </div>
       <div>
-        <JewelProds />
+        <CoverProds />
       </div>
-
     </div>
-
   )
 }
 
-export default Jewelry
+export default Covers

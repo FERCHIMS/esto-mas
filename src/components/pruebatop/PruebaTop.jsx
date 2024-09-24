@@ -3,12 +3,13 @@ import Intersection from "../intersection/Intersection"
 import { useState, useEffect } from "react"
 import TitleHeader from "../titles/TitleHeader";
 import Image from "next/image";
-import { tradeGothic } from "@/app/fonts/fonts";
+import { chesnaExtLight, chesnaLight, chesnaRegular, tradeGothic } from "@/app/fonts/fonts";
 
 
 const PruebaTop = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isInView, setIsInView] = useState(false)
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -41,7 +42,7 @@ const PruebaTop = () => {
                     </div>
 
                     <div className={`w-[50%] flex justify-end transition-all duration-[1000ms] delay-[1000ms] ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"} `}>
-                        <p className={`z-10 w-fit h-fit  text-[1.1rem] tracking-[0.1em] text-black ${tradeGothic.className} `}>{textito} </p>
+                        <p className={`z-10 w-fit h-fit  text-[1.1rem] tracking-[0.1em] text-black ${chesnaRegular.className} `}>{textito} </p>
                     </div>
                 </Intersection>
             </div>
@@ -54,8 +55,8 @@ const PruebaTop = () => {
                 </svg> */}
                 <Intersection setIsInView={setIsInView} isInView={isInView}>
                     <svg className="w-1/2" style={{ backgroundColor: "transparent" }} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 299 271">
-                        <path className={` transition-all duration-700 delay-700 ${isInView ? "translate-y-0 opacity-100" : "translate-y-[-10vh] opacity-0"}` } fill="#000000" d="m83 20-10 3c-1-4-6-9-18-9-8 0-15 2-15 7 0 2 2 5 12 6l13 2c12 2 19 7 19 16 0 13-12 17-26 17-23 0-29-11-30-15l10-3c2 4 6 9 20 9 9 0 16-3 16-7s-4-6-12-7l-13-2c-12-1-19-7-19-15C30 6 51 6 55 6c23 0 27 10 28 14Zm43 27h10c-2 5-7 15-22 15-13 0-23-6-23-22 0-10 8-20 22-20 15 0 21 8 22 15h-9c-1-3-5-7-12-7-9 0-14 6-14 12 0 8 4 14 13 14 8 0 12-4 13-7Zm18 14V21h10v6c2-3 6-7 14-7h3v10l-6-1c-11 0-11 8-11 11v21h-10Zm55 1c-11 0-23-5-23-21 0-11 7-21 23-21s22 10 22 21c0 16-11 21-22 21Zm0-8c8 0 13-5 13-13 0-10-6-13-13-13s-13 3-13 13c0 8 4 13 13 13Zm32 7V7h9v54h-9Zm22 0V7h9v54h-9Z" />
-                        <path className={` transition-all duration-700 delay-500 ${isInView ? "translate-y-0 opacity-100" : "translate-y-[-15vh] opacity-0"}` } stroke="#000000" stroke-width="62" d="m20 121 135 109 123-109" />
+                        <path className={` transition-all duration-700 delay-700 ${isInView ? "translate-y-0 opacity-100" : "translate-y-[-10vh] opacity-0"}`} fill="#000000" d="m83 20-10 3c-1-4-6-9-18-9-8 0-15 2-15 7 0 2 2 5 12 6l13 2c12 2 19 7 19 16 0 13-12 17-26 17-23 0-29-11-30-15l10-3c2 4 6 9 20 9 9 0 16-3 16-7s-4-6-12-7l-13-2c-12-1-19-7-19-15C30 6 51 6 55 6c23 0 27 10 28 14Zm43 27h10c-2 5-7 15-22 15-13 0-23-6-23-22 0-10 8-20 22-20 15 0 21 8 22 15h-9c-1-3-5-7-12-7-9 0-14 6-14 12 0 8 4 14 13 14 8 0 12-4 13-7Zm18 14V21h10v6c2-3 6-7 14-7h3v10l-6-1c-11 0-11 8-11 11v21h-10Zm55 1c-11 0-23-5-23-21 0-11 7-21 23-21s22 10 22 21c0 16-11 21-22 21Zm0-8c8 0 13-5 13-13 0-10-6-13-13-13s-13 3-13 13c0 8 4 13 13 13Zm32 7V7h9v54h-9Zm22 0V7h9v54h-9Z" />
+                        <path className={` transition-all duration-700 delay-500 ${isInView ? "translate-y-0 opacity-100" : "translate-y-[-15vh] opacity-0"}`} stroke="#000000" stroke-width="62" d="m20 121 135 109 123-109" />
                     </svg>
                 </Intersection>
             </div>

@@ -37,3 +37,46 @@ export async function getAdvertising() {
         
     }
 }
+
+export async function getBeauty () {
+    try {
+
+        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/advertising.json")
+        const data = await res.json();
+        return data
+    }catch(error) {
+        console.log("esto es un error: ", error);
+        
+    }
+};
+
+export async function getBridal() {
+    try {
+
+        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/advertising.json");
+        const data = await res.json()
+        return data
+    }catch (error) {
+        console.log("esto es un error: ", error);
+    }
+};
+
+export async function getCover() {
+    try {
+        const res = await fetch ("https://greftom4.github.io/apiEstaticaProds/advertising.json");
+        const data = res.json();
+        return data
+    }catch (error) {
+        console.log("esto es un error en getCover: ", error);      
+    }
+};
+
+export async function getStreet() {
+    try {
+        const res = await fetch ("https://greftom4.github.io/apiEstaticaProds/advertising.json");
+        const data = res.json();
+        return data
+    }catch (error) {
+        console.log("esto es un error en getStreet: ", error);      
+    }
+};

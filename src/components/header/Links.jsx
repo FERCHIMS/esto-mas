@@ -9,8 +9,8 @@ export const links = [
         href: "/jewelry"
     },
     {
-        title: "Luxury lifestyle",
-        href: "/luxuryLifestyle"
+        title: "Street",
+        href: "/street"
     },
     {
         title: "Advertising",
