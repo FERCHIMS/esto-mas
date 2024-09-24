@@ -13,7 +13,7 @@ const GridContainer = ({children}) => {
         700: 1      // 1 columna si el ancho es menor a 700px
     };
     return (
-        <Intersection className='w-[100vw]' isInView={isInView} setIsInView={setIsInView} rootMargin='900px 0px 0px 0px'  >
+        <Intersection className='w-[100vw] bg-white' isInView={isInView} setIsInView={setIsInView} rootMargin='900px 0px 0px 0px'  >
         <Masonry
             breakpointCols={breakpointColumnsObj}
             className={`my-masonry-grid px-10 ${isInView ? "opacity-100" : "opacity-0"} `} 

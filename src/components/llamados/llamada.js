@@ -14,3 +14,26 @@ export async function getModels() {
     }
 
 } 
+
+export async function getJewelry() {
+    try {
+        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/jewelry.json")
+        const data = await res.json();
+        return data
+    }
+    catch (error) {
+        console.log("esto es un error: ", error);   
+    }
+}
+
+export async function getAdvertising() {
+    try {
+        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/advertising.json")
+        const data = await res.json();
+        return data
+    }
+    catch (error) {
+        console.log("ESTO ES UN ERROR: ", error);
+        
+    }
+}

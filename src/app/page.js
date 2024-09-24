@@ -1,7 +1,6 @@
 import Products from "@/components/products/Products";
 import PruebaTop from "@/components/pruebatop/PruebaTop";
-import TitleHeader from "@/components/titles/TitleHeader";
-import Image from "next/image";
+
 
 
 
