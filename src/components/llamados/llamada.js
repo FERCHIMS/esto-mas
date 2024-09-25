@@ -53,7 +53,7 @@ export async function getBeauty () {
 export async function getBridal() {
     try {
 
-        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/advertising.json");
+        const res = await fetch("https://greftom4.github.io/apiEstaticaProds/bride.json");
         const data = await res.json()
         return data
     }catch (error) {
@@ -73,7 +73,7 @@ export async function getCover() {
 
 export async function getStreet() {
     try {
-        const res = await fetch ("https://greftom4.github.io/apiEstaticaProds/advertising.json");
+        const res = await fetch ("https://greftom4.github.io/apiEstaticaProds/street.json");
         const data = res.json();
         return data
     }catch (error) {

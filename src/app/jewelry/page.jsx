@@ -10,7 +10,7 @@ const Jewelry = () => {
     <div className='flex w-full h-full flex-col overflow-hidden '>
       <div>
         <TitlesPages
-        textito="After making stops in London, Stockholm and Milan"
+        textito="Captura la esencia de la elegancia y el brillo con nuestras fotografías de joyería. Cada imagen resalta la belleza y el detalle de las piezas, ofreciendo una visión única que invita a apreciar el arte de la orfebrería. Sumérgete en un mundo donde cada joya cuenta una historia."
         textito2= "JEWELRY"
         />
       </div>
