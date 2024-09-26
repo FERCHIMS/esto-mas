@@ -2,11 +2,11 @@ import React from 'react'
 
 const VideosPrueba = () => {
   return (
-    <div className=' '>
-        <video className='w-full h-screen object-cover' autoPlay muted loop>
-            <source  src='https://res.cloudinary.com/dtxyn8cnq/video/upload/v1726841288/4k_video_nzvshz.mp4' />
+    
+        <video className='w-full h-screen object-cover' autoPlay controls muted loop>
+            <source  src='https://www.dropbox.com/scl/fi/z74axlv36zhkz7dqi67es/Dinosaur-Jr.-Live-In-The-Middle-East.mp4?rlkey=9ysjzob0olvlg6flfprilj1ta&st=liqe7mlt&raw=1' />
         </video>
-    </div>
+    
   )
 }
 

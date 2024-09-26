@@ -3,7 +3,7 @@ import Intersection from "../intersection/Intersection"
 import { useState, useEffect } from "react"
 import TitleHeader from "../titles/TitleHeader";
 import Image from "next/image";
-import { chesnaExtLight, chesnaLight, chesnaRegular, class357Regular, gasoekOne, tradeGothic } from "@/app/fonts/fonts";
+import { chesnaRegular, class357Regular } from "@/app/fonts/fonts";
 
 
 const TitlesPages = ({textito, textito2}) => {

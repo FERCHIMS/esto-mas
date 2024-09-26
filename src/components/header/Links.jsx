@@ -25,16 +25,8 @@ export const links = [
         href: "/menswear"
     },
     {
-        title: "Lingerie",
-        href: "/lingerie"
-    },
-    {
         title: "Covers",
         href: "/covers"
-    },
-    {
-        title: "Celebrity",
-        href: "/celebrity"
     },
     {
         title: "Motion",
