@@ -37,8 +37,8 @@ const PruebaTop = () => {
             </div>
             <div className="flex w-full translate-x-[20vw] sm:translate-x-[30vw] lg:translate-x-0 lg:  gap-10  pt-[35vh] justify-center bg-transparent">
                 <Intersection className="flex-1 pl-0 lg:pl-10 lg:flex" setIsInView={setIsInView} isInView={isInView}>
-                    <div className={`flex justify-center z-10 overflow-hidden   w-[600px] h-[700px] lg:w-[300px] lg:h-[400px]  transition duration-[1200ms] delay-[900ms] ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} `} >
-                        <Image className=" w-full object-cover backdrop-hue-rotate-180 bg-white/30" src="https://iili.io/dr0c0WN.jpg" width={500} height={500} alt="esto" />
+                    <div className={`flex justify-center z-10 overflow-hidden   w-[300px] h-[400px] transition duration-[1200ms] delay-[900ms] ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} `} >
+                        <Image className=" w-full object-cover  bg-white/30" src="https://iili.io/dr0c0WN.jpg" width={500} height={500} alt="esto" />
                     </div>
 
                     <div className={`w-[50%]  translate-x-[-10vw] lg:translate-x-0 lg:w-[40%]  pt-5 flex justify-center transition-all duration-[1000ms] delay-[1000ms] ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"} `}>
